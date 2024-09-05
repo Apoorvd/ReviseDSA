@@ -1,17 +1,15 @@
 package org.revise.binarysearchdsa;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BinarySearchTest {
+public class BinarySearchTest {
 
     @Test
-    void binarySearchTest()
+    public void binarySearchTest()
     {
         var search = new BinarySearch();
         List<Integer> list = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
