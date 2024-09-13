@@ -12,6 +12,7 @@ public class BinarySearchTest {
     public void binarySearchTest()
     {
         var search = new BinarySearch();
+        System.out.println("just a change");
         List<Integer> list = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         //List<Integer> list2 = new ArrayList<>(){{add(3);}};
         //List<String> list = Arrays.asList("foo", "bar");
